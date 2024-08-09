@@ -26,3 +26,5 @@ jobs:
         cache: 'npm'
     - run: npm ci
     - run: npm run build
+    - name: Copy dist folder to Cyber Panel hosting directory
+      run: sudo cp -R /home/ubuntu/hms-frontend/_work/hms-frontend/hms-frontend/build/. /home/iamtanish.me/public_html
