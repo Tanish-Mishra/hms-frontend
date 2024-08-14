@@ -216,7 +216,7 @@ const Navbar = () => {
                       component={Link}
                       to="/SignUp"
                     >
-                      Sign Up
+                      Sign Up !
                     </Button>
                   </Box>
                 )}
